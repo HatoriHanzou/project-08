@@ -36,11 +36,22 @@
         <script src="./assets/js/scripts.js"></script>
     </head>
     <body>
-        <header id="header"></header>
-        <script>
-            load("#header", "./template/header.html");
-        </script>
-        <main></main>
-        <footer></footer>
+        <div class="container">
+            <!-- HEADER -->
+            <header id="header"></header>
+            <script>
+                load("#header", "./template/header.html");
+            </script>
+
+            <!-- MAIN -->
+            <main></main>
+
+            <!-- FOOTER -->
+            <footer id="footer">
+                <script>
+                    load("#footer", "./template/footer.html");
+                </script>
+            </footer>
+        </div>
     </body>
 </html>
