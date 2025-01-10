@@ -1,0 +1,29 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #f6f6f6;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Gordita, sans-serif;
+}
+
+/* COMMON */
+
+:root {
+    --second--color: #1a162e;
+}
+
+a {
+    text-decoration: none;
+    color: var(--second--color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem; /* 146.667% */
+}
