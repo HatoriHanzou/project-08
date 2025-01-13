@@ -10,9 +10,6 @@
     .hide-mobile {
         display: none !important;
     }
-    .header {
-        background-color: #fff !important;
-    }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
