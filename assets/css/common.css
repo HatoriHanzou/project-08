@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    background-color: #f6f6f6;
+    background-color: var(--main--bg-color);
 }
 
 body {
@@ -15,11 +15,6 @@ body {
 }
 
 /* COMMON */
-
-:root {
-    --second--color: #1a162e;
-}
-
 a {
     text-decoration: none;
     color: var(--second--color);

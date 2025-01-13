@@ -1,0 +1,23 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hide-mobile {
+        display: none !important;
+    }
+    .header {
+        background-color: #fff !important;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) {
+    .hide-pc {
+        display: none !important;
+    }
+}
